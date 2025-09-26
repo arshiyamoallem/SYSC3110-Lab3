@@ -19,7 +19,7 @@ public class AddressBook {
 
     public static void main(String[] args) {
         System.out.println("Address book");
-        System.out.println(":)\n");
+        System.out.println("step17");
         BuddyInfo buddy = new BuddyInfo("John", "123 Cool Street");
         AddressBook addressBook = new AddressBook();
 
@@ -27,3 +27,4 @@ public class AddressBook {
         addressBook.removeBuddy(buddy);
     }
 }
+
