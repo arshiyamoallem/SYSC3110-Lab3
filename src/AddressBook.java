@@ -13,6 +13,10 @@ public class AddressBook {
         }
     }
 
+    public void printHi() {
+        System.out.println("Hi");
+    }
+
     public void removeBuddy(BuddyInfo buddy) {
         buddies.remove(buddy);
     }
